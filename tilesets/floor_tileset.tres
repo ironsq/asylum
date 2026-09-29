@@ -1,0 +1,103 @@
+[gd_resource type="TileSet" load_steps=17 format=3 uid="uid://v7fg7d6lon6v"]
+
+[ext_resource type="Texture2D" uid="uid://p207xgavh68x" path="res://assets/dungeon_tiles/floor/dirtTiles_E.png" id="1_s0ti1"]
+[ext_resource type="Texture2D" uid="uid://br76xum4yrr3e" path="res://assets/dungeon_tiles/floor/dirtTiles_N.png" id="2_vym0b"]
+[ext_resource type="Texture2D" uid="uid://c7fuquvb64rae" path="res://assets/dungeon_tiles/floor/dirtTiles_S.png" id="3_c1e3y"]
+[ext_resource type="Texture2D" uid="uid://b8lgn6wju2bo4" path="res://assets/dungeon_tiles/floor/dirtTiles_W.png" id="4_7i72p"]
+[ext_resource type="Texture2D" uid="uid://dx75xavplsumx" path="res://assets/dungeon_tiles/floor/dirt_E.png" id="5_dxmbg"]
+[ext_resource type="Texture2D" uid="uid://cqofrc30qr1n" path="res://assets/dungeon_tiles/floor/dirt_N.png" id="6_06phr"]
+[ext_resource type="Texture2D" uid="uid://b1ypwhi7ccnmr" path="res://assets/dungeon_tiles/floor/dirt_S.png" id="7_y7kso"]
+[ext_resource type="Texture2D" uid="uid://ci8vljqn23hs2" path="res://assets/dungeon_tiles/floor/dirt_W.png" id="8_oy3x1"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pjpke"]
+texture = ExtResource("1_s0ti1")
+texture_region_size = Vector2i(128, 64)
+0:5/0 = 0
+1:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1b8jc"]
+texture = ExtResource("2_vym0b")
+texture_region_size = Vector2i(128, 64)
+0:5/0 = 0
+1:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bwi7m"]
+texture = ExtResource("3_c1e3y")
+texture_region_size = Vector2i(128, 64)
+0:5/0 = 0
+1:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3dmvy"]
+texture = ExtResource("4_7i72p")
+texture_region_size = Vector2i(128, 64)
+0:5/0 = 0
+1:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3vjr0"]
+texture = ExtResource("5_dxmbg")
+texture_region_size = Vector2i(128, 64)
+0:5/0 = 0
+1:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+1:4/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2mr32"]
+texture = ExtResource("6_06phr")
+texture_region_size = Vector2i(128, 64)
+0:5/0 = 0
+1:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fc4ml"]
+texture = ExtResource("7_y7kso")
+texture_region_size = Vector2i(128, 64)
+0:5/0 = 0
+1:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kd1lt"]
+texture = ExtResource("8_oy3x1")
+texture_region_size = Vector2i(128, 64)
+0:5/0 = 0
+1:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+
+[resource]
+tile_shape = 1
+tile_size = Vector2i(128, 64)
+sources/0 = SubResource("TileSetAtlasSource_pjpke")
+sources/1 = SubResource("TileSetAtlasSource_1b8jc")
+sources/2 = SubResource("TileSetAtlasSource_bwi7m")
+sources/3 = SubResource("TileSetAtlasSource_3dmvy")
+sources/4 = SubResource("TileSetAtlasSource_3vjr0")
+sources/5 = SubResource("TileSetAtlasSource_2mr32")
+sources/6 = SubResource("TileSetAtlasSource_fc4ml")
+sources/7 = SubResource("TileSetAtlasSource_kd1lt")
